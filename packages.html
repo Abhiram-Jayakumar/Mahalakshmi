@@ -14,11 +14,13 @@
             display: flex;
             flex-direction: column;
         }
+
         .package-card .card-body {
             flex-grow: 1;
             display: flex;
             flex-direction: column;
         }
+
         .package-card .package-price {
             margin-top: auto;
         }
@@ -72,7 +74,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card package-card">
                     <img src="https://i.postimg.cc/MT9BTNjX/14808771177-25ab133227-h.jpg" class="card-img-top"
-                        alt="Mysore Package"style="height: 235px;">
+                        alt="Mysore Package" style="height: 235px;">
                     <div class="card-body">
                         <h5 class="card-title">Mysore Local - 1 Day</h5>
                         <p class="card-text">1 Day</p>
@@ -85,8 +87,9 @@
                         </ul>
                         <div class="package-price">
                             <span>From</span>
-                            <h4>₹4,500</h4>
-                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.</p>
+                            <h4>₹3,500</h4>
+                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.
+                            </p>
                         </div>
                         <a href="./contact.html" class="btn btn-primary w-100">Book Now</a>
                     </div>
@@ -114,8 +117,9 @@
                         </ul>
                         <div class="package-price">
                             <span>From</span>
-                            <h4>₹9,000</h4>
-                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.</p>
+                            <h4>₹7,000</h4>
+                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.
+                            </p>
                         </div>
                         <a href="./contact.html" class="btn btn-primary w-100">Book Now</a>
                     </div>
@@ -126,7 +130,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card package-card">
                     <img src="https://i.postimg.cc/nrsNw84D/coorg-karnataka-1000x480.jpg" class="card-img-top"
-                        alt="Coorg Package"style="height: 235px;">
+                        alt="Coorg Package" style="height: 235px;">
                     <div class="card-body">
                         <h5 class="card-title">Coorg Local - 2 Days</h5>
                         <p class="card-text">2 Days</p>
@@ -143,7 +147,8 @@
                         <div class="package-price">
                             <span>From</span>
                             <h4>₹9,000</h4>
-                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.</p>
+                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.
+                            </p>
                         </div>
                         <a href="./contact.html" class="btn btn-primary w-100">Book Now</a>
                     </div>
@@ -157,7 +162,7 @@
                         alt="Dakshina Karnataka Package" style="height: 235px;">
                     <div class="card-body">
                         <h5 class="card-title">Dakshina Karnataka</h5>
-                        <p class="card-text">14 per km + bata + fuel</p>
+                        <p class="card-text">14 per km + bata + tax</p>
                         <ul class="package-features">
                             <li>Horanadu</li>
                             <li>Sringeri</li>
@@ -173,19 +178,29 @@
                         <div class="package-price">
                             <span>From</span>
                             <h4>
-                                14 per km + bata + fuel
-                                <button onclick="showExplanation()" style="display: inline-block; margin-left: 10px; padding: 5px 10px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">How it works</button>
+                                14 per km + bata + tax
+                                <button onclick="showExplanation()"
+                                    style="display: inline-block; margin-left: 10px; padding: 5px 10px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">How
+                                    it works</button>
                             </h4>
-                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.</p>
-                        </div>
-                        
-                        <div id="explanationPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); z-index: 1000;">
-                            <p>
-                                <strong>"14 per km" means:</strong> For every kilometer (like a mile, but a bit shorter) that the car travels, you'll pay 14 rupees. So, if you travel 10 kilometers, that's 140 rupees just for the distance.<br><br>
-                                <strong>"+ bata" means:</strong> "Bata" is like a daily allowance for the driver. It covers their food and other small expenses. Let's say the "bata" is 300 rupees per day. So, if your trip takes one day, you'll add 300 rupees.<br><br>
-                                <strong>"+ fuel" means:</strong> You'll also pay for the gasoline the car uses. This is calculated based on how much fuel the car consumes during your trip.
+                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.
                             </p>
-                            <button onclick="closeExplanation()" style="margin-top: 10px; padding: 5px 10px; background-color: #dc3545; color: white; border: none; cursor: pointer; border-radius: 5px;">Close</button>
+                        </div>
+
+                        <div id="explanationPopup"
+                            style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); z-index: 1000;">
+                            <p>
+                                <strong>"14 per km" means:</strong> For every kilometer (like a mile, but a bit shorter)
+                                that the car travels, you'll pay 14 rupees. So, if you travel 10 kilometers, that's 140
+                                rupees just for the distance.<br><br>
+                                <strong>"+ bata" means:</strong> "Bata" is like a daily allowance for the driver. It
+                                covers their food and other small expenses. Let's say the "bata" is 300 rupees per day.
+                                So, if your trip takes one day, you'll add 300 rupees.<br><br>
+                                <strong>"+ tax" means:</strong>This indicates that applicable taxes will be added to the
+                                total cost.
+                            </p>
+                            <button onclick="closeExplanation()"
+                                style="margin-top: 10px; padding: 5px 10px; background-color: #dc3545; color: white; border: none; cursor: pointer; border-radius: 5px;">Close</button>
                         </div>
                         <a href="./contact.html" class="btn btn-primary w-100">Book Now</a>
                     </div>
@@ -199,7 +214,7 @@
                         alt="Uthara Karnataka Package" style="height: 235px;">
                     <div class="card-body">
                         <h5 class="card-title">Uthara Karnataka</h5>
-                        <p class="card-text">14 per km + bata + fuel</p>
+                        <p class="card-text">14 per km + bata + tax</p>
                         <ul class="package-features">
                             <li>Chitradurga</li>
                             <li>Hampi</li>
@@ -213,19 +228,29 @@
                         <div class="package-price">
                             <span>From</span>
                             <h4>
-                                14 per km + bata + fuel
-                                <button onclick="showExplanation()" style="display: inline-block; margin-left: 10px; padding: 5px 10px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">How it Works</button>
+                                14 per km + bata + tax
+                                <button onclick="showExplanation()"
+                                    style="display: inline-block; margin-left: 10px; padding: 5px 10px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">How
+                                    it works</button>
                             </h4>
-                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.</p>
-                        </div>
-                        
-                        <div id="explanationPopup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); z-index: 1000;">
-                            <p>
-                                <strong>"14 per km" means:</strong> For every kilometer (like a mile, but a bit shorter) that the car travels, you'll pay 14 rupees. So, if you travel 10 kilometers, that's 140 rupees just for the distance.<br><br>
-                                <strong>"+ bata" means:</strong> "Bata" is like a daily allowance for the driver. It covers their food and other small expenses. Let's say the "bata" is 300 rupees per day. So, if your trip takes one day, you'll add 300 rupees.<br><br>
-                                <strong>"+ fuel" means:</strong> You'll also pay for the gasoline the car uses. This is calculated based on how much fuel the car consumes during your trip.
+                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.
                             </p>
-                            <button onclick="closeExplanation()" style="margin-top: 10px; padding: 5px 10px; background-color: #dc3545; color: white; border: none; cursor: pointer; border-radius: 5px;">Close</button>
+                        </div>
+
+                        <div id="explanationPopup"
+                            style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); z-index: 1000;">
+                            <p>
+                                <strong>"14 per km" means:</strong> For every kilometer (like a mile, but a bit shorter)
+                                that the car travels, you'll pay 14 rupees. So, if you travel 10 kilometers, that's 140
+                                rupees just for the distance.<br><br>
+                                <strong>"+ bata" means:</strong> "Bata" is like a daily allowance for the driver. It
+                                covers their food and other small expenses. Let's say the "bata" is 300 rupees per day.
+                                So, if your trip takes one day, you'll add 300 rupees.<br><br>
+                                <strong>"+ tax" means:</strong>This indicates that applicable taxes will be added to the
+                                total cost.
+                            </p>
+                            <button onclick="closeExplanation()"
+                                style="margin-top: 10px; padding: 5px 10px; background-color: #dc3545; color: white; border: none; cursor: pointer; border-radius: 5px;">Close</button>
                         </div>
                         <a href="./contact.html" class="btn btn-primary w-100">Book Now</a>
                     </div>
@@ -254,7 +279,8 @@
                         <div class="package-price">
                             <span>From</span>
                             <h4>₹9,000</h4>
-                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.</p>
+                            <p class="text-danger" align="center">All displayed package prices Exclude applicable taxes.
+                            </p>
                         </div>
                         <a href="./contact.html" class="btn btn-primary w-100">Book Now</a>
                     </div>
@@ -295,11 +321,11 @@
         function showExplanation() {
             document.getElementById('explanationPopup').style.display = 'block';
         }
-        
+
         function closeExplanation() {
             document.getElementById('explanationPopup').style.display = 'none';
         }
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
