@@ -1,0 +1,310 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+}
+
+body {
+    padding-top: 56px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Loading Overlay */
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.postimg.cc/4N6JQtBQ/1568097723-shutterstock-1325348915.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: -56px;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+/* Packages Header */
+.packages-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMThmZTZ5eHI0bG5xZ2Rva3VlMzltam1zcHpxaHR6dTk2N2s4ODVvaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xVr3P1s43lKyk8K60Z/giphy.gif');
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 40px;
+    height: fit-content;
+    width:fit-content;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* About Header */
+.about-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.postimg.cc/4xMztC0H/a98c132c9cc30ab70efb5a09ab44bbaa.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 40px;
+    height: fit-content;
+  
+}
+
+/* Package Cards */
+.package-card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+
+.package-card:hover {
+    transform: translateY(-5px);
+}
+
+.package-features {
+    list-style: none;
+    padding-left: 0;
+}
+
+.package-features li {
+    padding: 5px 0;
+}
+
+.package-features li:before {
+    content: "✓";
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.package-price {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.package-price span {
+    color: var(--secondary-color);
+}
+
+.package-price h4 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+/* Value Cards */
+.value-card {
+    background: var(--light-color);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Team Member */
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Achievement Cards */
+.achievement-card {
+    padding: 20px;
+    background: var(--light-color);
+    border-radius: 10px;
+}
+
+.achievement-card h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
+
+.social-links a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .packages-header,
+    .about-header {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .achievement-card h3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+.loader {
+    text-align: center;
+    width: fit-content;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0000;
+    -webkit-text-stroke: 1px #000;
+    background: linear-gradient(90deg, #0000 33%, #000 0 67%, #0000 0) 100%/300% 100% no-repeat text;
+    animation: l12 4s steps(14) infinite;
+}
+
+.loader:before {
+    content: "Mahalakshmi Travels";
+}
+
+@keyframes l12 {
+    to {
+        background-position: 0;
+    }
+}
+
+
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+    
+    
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+
+   

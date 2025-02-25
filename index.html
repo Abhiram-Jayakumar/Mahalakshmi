@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahalakshmi Tours and Travels</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        p,
+        h4,
+        h2 {
+            font-family: sans-serif;
+            text-align: justify;
+        }
+
+        .card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card .btn {
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Mahalakshmi Tours</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Mahalakshmi Tours and Travels</h1>
+            <p style="text-align: center;">Discover the world with us</p>
+            <a href="packages.html" class="btn btn-primary btn-lg">Explore Packages</a>
+        </div>
+    </header>
+
+    <!-- Featured Destinations -->
+    <section id="packages" class="container mt-5">
+        <h2 class="text-center mb-4">Popular Destinations</h2>
+        <div class="row" style="text-align: justify;">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/MT9BTNjX/14808771177-25ab133227-h.jpg" class="card-img-top"
+                        alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Mysore Local - 1 Day Whirlwind Tour</h5>
+                        <p class="card-text">This action-packed one-day tour of Mysore hits the highlights, perfect for
+                            those short on time but eager to experience the city's magic</p>
+                        <a href="./packages.html" class="btn btn-primary">Learn More</a>
+                        &nbsp;&nbsp;
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/5Nytbj3B/statue-of-mahishasura-chamundi-hills-mysore-timings-mysore-tourism-header.jpg"
+                        class="card-img-top" alt="Destination 2" style="height: 230px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Mysore Local - 2 Day Immersion: History, Wildlife, and Heritage</h5>
+                        <p class="card-text">This two-day itinerary offers a deeper exploration of Mysore and its
+                            surrounding historical and cultural gems, allowing for a more relaxed pace and a richer
+                            experience.</p>
+                        <a href="./packages.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/nrsNw84D/coorg-karnataka-1000x480.jpg" class="card-img-top"
+                        alt="Destination 3" style="height: 230px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Coorg Local - 2 Day Scenic Escape: Temples, Nature, and Hill Station
+                            Charm</h5>
+                        <p class="card-text">This two-day Coorg itinerary focuses on experiencing the region's diverse
+                            offerings, from spiritual sites to breathtaking natural landscapes and the charm of its hill
+                            station towns.</p>
+                        <a href="./packages.html" class="btn btn-primary">Learn More</a>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/J0Jc4vWJ/Murudeshwar1.webp" class="card-img-top" alt="Destination 4">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;">Dakshina Karnataka (South Karnataka): A
+                            Pilgrimage and Nature Lover's Paradise</h5>
+                        <p class="card-text">South Karnataka offers a blend of religious experiences and natural
+                            wonders, making it an ideal destination for spiritual seekers and nature enthusiasts alike.
+                        </p>
+                        <a href="./packages.html" class="btn btn-primary">Learn More</a>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/jd4Pgzqs/Slide25-900x600.webp" class="card-img-top"
+                        alt="Destination 5" style="height: 230px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Uttara Karnataka (North Karnataka): A Land of Historical Grandeur and
+                            Natural Wonders</h5>
+                        <p class="card-text">North Karnataka is a region steeped in history and blessed with diverse
+                            natural landscapes, offering a captivating experience for travelers. </p>
+                        <a href="./packages.html" class="btn btn-primary">Learn More</a>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/mrCbjSRj/download.jpg" class="card-img-top" alt="Destination 6"
+                        style="height: 230px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ooty - is a beloved hill station nestled in the Nilgiri Hills of Tamil
+                            Nadu.</h5>
+                        <p class="card-text">Ooty offers a delightful blend of natural beauty, historical charm, and
+                            relaxing atmosphere, making it a perfect destination for a memorable vacation</p>
+                        <a href="./packages.html" class="btn btn-primary">Learn More</a>
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learnmore" style="text-align:center;">
+        <button class="learn-more" onclick="direct()">
+            <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Learn More</span>
+        </button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="text-center">Mahalakshmi Tours and Travels has been your trusted travel partner since 2000. We offer a
+            variety of travel packages to suit every need and budget. Our experienced team is dedicated to providing you
+            with the best travel experience possible.</p>
+    </section>
+
+    <section id="contact" class="container mt-5 mb-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="b933d13e-7c05-488b-a430-d92571a78be6">
+
+                    <div class="mb-3">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="phone_number" name="phone_number" class="form-control" placeholder="phone_number"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="message" class="form-control" rows="5" placeholder="Your Message"
+                            required></textarea>
+                    </div>
+
+                    <!-- Honeypot Spam Protection -->
+                    <div style="display: none;">
+                        <input type="checkbox" name="botcheck" class="hidden">
+                    </div>
+
+                    <!-- Custom Confirmation / Success Page -->
+                    <input type="hidden" name="redirect" value="https://mahalakshmitoursandtravles.netlify.app/index">
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <br>
+                    <h4 style="text-align: center;"><b>Get in Touch</b> </h4>
+                    <p style="text-align: center;"><i class="fas fa-map-marker-alt"></i>Mysore,Bangalore,Karnataka,570001</p>
+                    <p style="text-align: center;"><i class="fas fa-phone"></i> +91 9980002120</p>
+                    <p style="text-align: center;"><i class="fas fa-envelope"></i> mahalakshmitravels@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="position-fixed end-0 me-3" style="bottom: 50px; z-index: 1050;">
+        <div class="d-flex flex-column gap-3">
+            <a href="https://wa.me/9980002120" class="btn btn-success rounded-circle p-0 shadow-sm"
+                style="width: 60px; height: 60px;" target="_blank" data-bs-toggle="tooltip" data-bs-placement="left"
+                title="Chat on WhatsApp">
+                <img src="https://i.postimg.cc/zfdGfD6b/5968841.png"
+                    alt="WhatsApp" class="w-100 h-100 rounded-circle">
+            </a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Mahalakshmi Tours</h5>
+                    <p>Your trusted travel partner since 2000.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
